@@ -36,18 +36,22 @@
       <p class="hero-copy">An introduction to the machine that helped bring Capstone Robotics to life.</p>
       <a class="primary-link" href="our-story.html">Discover Bob <span>→</span></a>
     </div>
-    <div class="robot-placeholder" role="img" aria-label="Placeholder for a photo of Bob, Capstone Robotics' first robot">
-      <div class="placeholder-grid"></div>
-      <div class="robot-outline">
-        <div class="robot-top"></div>
-        <div class="robot-body"><i></i><i></i><i></i></div>
-        <div class="robot-wheel wheel-left"></div>
-        <div class="robot-wheel wheel-right"></div>
-        <div class="robot-base"></div>
-      </div>
-      <div class="photo-note"><span class="photo-dot"></span> ADD A PHOTO OF BOB HERE</div>
-      <span class="hero-index">01 / THE FIRST ROBOT</span>
-    </div>
+   <div class="robot-placeholder">
+  <img
+    src="img/bob.jpg"
+    alt="Bob, Capstone Robotics' first robot"
+    class=".robot-photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  position: relative;
+  z-index: 1;
+}"
+  >
+  <span class="hero-index">01 / THE FIRST ROBOT</span>
+</div>
     <div class="hero-bottom"><span>BUILT TO LEARN</span><span>MADE TO INSPIRE</span><span>EDMONTON, ALBERTA</span></div>
   </section>
 
